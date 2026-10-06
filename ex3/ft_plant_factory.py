@@ -28,10 +28,10 @@ class Plant:
 if __name__ == "__main__":
     plants = [
         Plant("Rose", 25.0, 30, 0.8),
-        Plant("Sunflower", 80.0, 45, 1.5),
-        Plant("Cactus", 15.0, 120, 0.2),
-        Plant("Fern", 35.0, 60, 0.6),
-        Plant("Bamboo", 120.0, 90, 3.0)
+        Plant("Oak", 200.0, 365, 1.5),
+        Plant("Cactus", 5.0, 90, 0.2),
+        Plant("Sunflower", 80.0, 45, 0.6),
+        Plant("Fern", 15.0, 120, 3.0)
     ]
     print("=== Plant Factory Output ===")
     for plant in plants:
